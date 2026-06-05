@@ -18,7 +18,7 @@ def sent_detector():
 
     if dominant_emotion is None:
         return "Infalid text! Please try again!"
-    else 
+    else:
         return "For the given statement, the system response is 'anger': {}, 'disgust': {}, 'fear': {}, 'joy': {} and 'sadness': {}. The dominant emotion is {}.".format(anger,disgust,fear,joy,sadness,dominant_emotion)
 
 @app.route("/")
